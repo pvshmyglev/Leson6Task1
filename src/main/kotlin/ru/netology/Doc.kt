@@ -1,4 +1,3 @@
 package ru.netology
 
-class Doc {
-}
+data class Doc(val id: Int)

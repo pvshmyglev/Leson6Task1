@@ -1,4 +1,3 @@
 package ru.netology
 
-class Audio {
-}
+data class Audio(val id: Int)

@@ -1,4 +1,3 @@
 package ru.netology
 
-class Photo {
-}
+data class Photo(val id: Int)
