@@ -1,4 +1,3 @@
 package ru.netology
 
-class AttachmentLink(override val type: String, link: Link) : Attachment{
-}
+data class AttachmentLink(override val type: String, val link: Link) : Attachment

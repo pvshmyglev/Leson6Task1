@@ -1,4 +1,3 @@
 package ru.netology
 
-class AttachmentvDoc(override val type: String, doc: Doc) : Attachment{
-}
+data class AttachmentvDoc(override val type: String, val doc: Doc) : Attachment
